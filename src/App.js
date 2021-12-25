@@ -7,7 +7,7 @@ function App() {
     <>
     <h1 className="m-3">image gallary</h1>
     <hr /> 
-    <p>this project is my first project in Reacr.js</p>
+    <p>this project is my first project in React.js . so , welcome to this project </p>
     <hr />
     <div className="container">
       <div className="row m-3 justify-content-center">
