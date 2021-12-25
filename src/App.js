@@ -1,24 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import react from "react";
+import Card from "./components/card"
+import "./App.css"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+    <h1 className="m-3">image gallary</h1>
+    <hr /> 
+    <p>this project is my first project in Reacr.js</p>
+    <hr />
+    <div className="container">
+      <div className="row m-3 justify-content-center">
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      </div>
     </div>
+    </>
   );
 }
 
