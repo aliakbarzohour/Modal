@@ -1,22 +1,15 @@
 import react from "react";
-import Card from "./components/card"
-import "./App.css"
+import Card from "./components/card";
+import "./App.css";
 
 function App() {
   return (
+    // start coding
+    // React Fragment
     <>
-    <h1 className="m-3">image gallary</h1>
-    <hr /> 
-    <p>this project is my first project in React.js . so , welcome to this project </p>
-    <hr />
-    <div className="container">
-      <div className="row m-3 justify-content-center">
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      </div>
-    </div>
+      <h1>nice card</h1>
+      <p>mini project</p>
+      <p>make a very nice card with semantic ui and react js for workout</p>
     </>
   );
 }
