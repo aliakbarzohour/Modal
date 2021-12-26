@@ -22,3 +22,16 @@ p {
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18);
 }
+
+img {
+    width: 100%;
+}
+
+.special {
+    align-items: center;
+    justify-content: center;
+}
+
+.m {
+    margin: 20px 0 10px 0;
+}
