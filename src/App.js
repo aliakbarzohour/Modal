@@ -1,22 +1,44 @@
-import react from "react";
-import Card from "./components/card";
-import './App.css'
+import React, { useState } from "react";
+import "./App.css";
+import Card from "./card";
 
-function App() {
+const App = (props) => {
+  // first state  
+  const [CardName, SetCardName] = useState({
+    Name: [{ name: "Bigman" }, { name: "majid" }, { name: "Japan" }],
+  });
+  // set stat with hooks 
+  const ForClick = () => {
+    SetCardName({
+      Name: [{ name: "John" }, { name: "Ali" }, { name: "Japman" }],
+    });
+  };
+
   return (
-    // start coding
-    // React Fragment
     <>
-      <h1 className="m">nice card</h1>
-      <p>make a very nice card with semantic ui and react js for workout</p>
-      <div className="ui special cards">
-        <Card user="Aliakbar" nowtime='2022' />
-        <Card user="Mahdi" nowtime='2022' />
-        <Card user="Omid" nowtime='2022' />
-        <Card user="Abolfazl" nowtime='2022' />
+      <div className="title">
+        <h1>image gallary</h1>
+        <hr />
       </div>
+      <div className="container">
+        <Card name={CardName.Name[1].name} />
+        <Card name={CardName.Name[0].name} />
+        <Card name={CardName.Name[2].name} />
+        <Card name={CardName.Name[0].name} />
+      </div>
+      <button onClick={ForClick}>change name</button>
     </>
   );
-}
+};
+// class App extends React.Component {
+//   state =
+//   ForClick = () => {
+
+//   };
+
+//   render() {
+//
+//   }
+// }
 
 export default App;

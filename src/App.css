@@ -2,10 +2,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: #fff !important;
 }
 
 body {
-    background-color: cornsilk;
+    background: url(../20454470.jpeg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    margin: 40px 10px;
 }
 
 h1,
@@ -14,7 +22,8 @@ p {
     text-align: center;
 }
 
-.card {
+.ui.card {
+    margin: 10px !important;
     background: rgba( 255, 255, 255, 0.25);
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
     backdrop-filter: blur( 4px);
@@ -32,6 +41,9 @@ img {
     justify-content: center;
 }
 
-.m {
-    margin: 20px 0 10px 0;
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
