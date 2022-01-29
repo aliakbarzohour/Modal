@@ -1,11 +1,13 @@
-import React from 'react';
+import React from "react";
+import ModalExampleDimmer from "./Components/modal/Modal";
 
 const App = () => {
-    return (
-        // React Fragment 
-        <>
-            let goooooooo !
-        </>
-    )
-}
+  return (
+    // React Fragment
+    <>
+      <ModalExampleDimmer />
+    </>
+  );
+};
+
 export default App;
