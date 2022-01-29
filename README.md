@@ -1,12 +1,9 @@
-# Getting Started with Create React App
+# Modal ( React.js Mini Project )
+With the help of semantic UI, I created a very cool and fully responsive modal. In the form of a Reect file, it is actually the same as JSX. This file was supposed to be a practice file, but Yahoo turned out to be a very cool and funny mini-project.
+## Run Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
+To run this cool mini project on port 300 or any port, run the following command ...
+#### ` $ npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
