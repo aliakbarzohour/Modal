@@ -3,4 +3,6 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    background: url(../src/assets/pexels-lukas-942802.jpg) no-repeat;
+    background-size: cover;
 }
